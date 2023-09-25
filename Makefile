@@ -7,5 +7,5 @@ clear:
 	clear
 
 linked_list: clear
-	gcc ./source/Linked_Lists/main.c $(OUT)
+	g++ ./source/Linked_Lists/main.c++ $(OUT)
 	./out/out
