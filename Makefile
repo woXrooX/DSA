@@ -6,6 +6,10 @@ OUT = -o ./out/out
 clear:
 	clear
 
+array_sort: clear
+	g++ ./source/Arrays/sort.c++ $(OUT)
+	./out/out
+
 linked_list: clear
 	g++ ./source/Linked_Lists/main.c++ $(OUT)
 	./out/out
